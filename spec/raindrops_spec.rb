@@ -15,4 +15,8 @@ describe '#raindrops' do
     expect(raindrops(6)).to eq('Pling')
   end
 
+  it 'returns Plang if factors include 5' do
+    expect(raindrops(5)).to eq('Plang')
+  end
+
 end

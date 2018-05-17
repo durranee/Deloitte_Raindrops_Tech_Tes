@@ -27,4 +27,9 @@ describe '#raindrops' do
     expect(raindrops(30)).to eq('PlingPlang')
   end
 
+  it 'returns number itself if factors do not include 3, 5 or 7' do
+  expect(raindrops(34)).to eq('34')
+end
+
+
 end

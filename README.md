@@ -12,3 +12,17 @@ Examples:
 - 28's factors are 1, 2, 4, 7, 14 and 28: this would be a simple 'Plong'
 - 30's factors are 1, 2, 3, 5, 6, 10, 15, 30: this would be a 'PlingPlang'
 - 34 has four factors: 1, 2, 17, and 34: this would be '34'
+
+### Getting Started
+
+1) Clone or download and unzip repository.
+
+2) Run bundle install to install dependencies listed in Gemfile.
+
+
+
+### To run tests
+```
+cd Deloitte_Raindrops_Tech_Test
+rspec
+```

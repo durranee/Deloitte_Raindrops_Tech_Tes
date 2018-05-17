@@ -19,7 +19,22 @@ Examples:
 
 2) Run bundle install to install dependencies listed in Gemfile.
 
+### To run method
 
+#### irb
+```
+irb
+2.4.1 :001 > require './lib/raindrops'
+ => true
+2.4.1 :002 > raindrops(10)
+ => "Plang"
+```
+
+#### In other ruby scripts
+```
+require '<relative_path_of_raindrops/>raindrops'
+raindrops(10) # where 10 can be a number of your choice
+```
 
 ### To run tests
 ```

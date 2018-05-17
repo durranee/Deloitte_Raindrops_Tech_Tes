@@ -23,4 +23,8 @@ describe '#raindrops' do
     expect(raindrops(28)).to eq('Plong')
   end
 
+  it 'returns PlingPlang if factors include both 3 and 5' do
+    expect(raindrops(30)).to eq('PlingPlang')
+  end
+
 end

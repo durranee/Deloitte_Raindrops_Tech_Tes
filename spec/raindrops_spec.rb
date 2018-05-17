@@ -11,12 +11,16 @@ describe '#divisible_by' do
 end
 
 describe '#raindrops' do
-  it 'returns Pling if factor includes 3' do
+  it 'returns Pling if factors include 3' do
     expect(raindrops(6)).to eq('Pling')
   end
 
   it 'returns Plang if factors include 5' do
     expect(raindrops(5)).to eq('Plang')
+  end
+
+  it 'returns Plong if factors include 7' do
+    expect(raindrops(28)).to eq('Plong')
   end
 
 end

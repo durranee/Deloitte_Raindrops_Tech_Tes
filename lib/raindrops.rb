@@ -8,6 +8,5 @@ def raindrops(num)
   result = 'Pling' if num.divisible_by? 3
   result += 'Plang' if num.divisible_by? 5
   result += 'Plong' if num.divisible_by? 7
-
-  result
+  result.empty? ? num.to_s : result
 end
